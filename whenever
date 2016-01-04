@@ -1,0 +1,4 @@
+crontab -l  => list all
+whenever -c => clear, stop
+
+whenever --update-crontab => start

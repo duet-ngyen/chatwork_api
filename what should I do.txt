@@ -1,0 +1,12 @@
+1.  get api_key token chatwork
+2.  gem chatwork https://github.com/asonas/chatwork-ruby in the file c.rb
+    2.1 TOKEN_KEY
+
+3.  curl -i -H  "X-ChatWorkToken:TOKEN_KEY" https://api.chatwork.com/v1/contacts
+    to get all contact chatwork info room
+    
+4.  host_name = "https://api.chatwork.com/v1/contacts"
+    data = Kernel.system "curl -i -H  'X-ChatWorkToken:TOKEN_KEY' #{host_name}"
+    puts data
+    
+    -> to get all contacts json
